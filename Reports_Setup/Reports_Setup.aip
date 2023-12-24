@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="21.2.2" version="21.2.2" Modules="simple" RootPath="." Language="en" Id="{C7ACE714-323F-4753-8D92-B9AC8A18BD48}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Aspose.PDF.dll" Value="..\packages\Aspose.PDF.23.12.0\lib\net4.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DPDFViewerNative_x64.dll" Value="..\Some Application\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DPDFViewerNative_x86.dll" Value="..\Some Application\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DynamicPDF.CoreSuite.dll" Value="..\packages\ceTe.DynamicPDF.CoreSuite.NET.12.13.0\lib\net462"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DynamicPDF.Viewer.dll" Value="..\packages\ceTe.DynamicPDF.Viewer.NET.3.18.0\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SomeApplication.exe" Value="..\Some Application\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SomeApplication.exe.config" Value="..\Some Application\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SomeApplication.pdb" Value="..\Some Application\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Reflection.TypeExtensions.dll" Value="..\packages\System.Reflection.TypeExtensions.4.7.0\lib\net461"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WkHtmlToPdfDotNet.dll" Value="..\packages\Haukcode.WkHtmlToPdfDotNet.1.5.86\lib\net461"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_wkhtmltox.dll" Value="..\Some Application\bin\Debug\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_wkhtmltox.dll_1" Value="..\Some Application\bin\Debug\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Aspose.PDF.dll" Value="Aspose.PDF.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DPDFViewerNative_x64.dll" Value="DPDFViewerNative_x64.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DPDFViewerNative_x86.dll" Value="DPDFViewerNative_x86.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DynamicPDF.CoreSuite.dll" Value="DynamicPDF.CoreSuite.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DynamicPDF.Viewer.dll" Value="DynamicPDF.Viewer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.exe" Value="Some Application.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.exe.config" Value="Some Application.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.pdb" Value="Some Application.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.TypeExtensions.dll" Value="System.Reflection.TypeExtensions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WkHtmlToPdfDotNet.dll" Value="WkHtmlToPdfDotNet.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_wkhtmltox.dll" Value="wkhtmltox.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_wkhtmltox.dll_1" Value="wkhtmltox.dll"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="Sachin"/>
+    <ROW Property="ProductCode" Value="1033:{ABB28FF5-2062-4A50-A33B-FF6E0D089181} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Reports"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{73C429D0-54DF-4834-A68F-55581EDF5508}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="SomeApplication_Dir" Directory_Parent="APPDIR" DefaultDir="SOMEAP~1|Some Application"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="native_1_Dir" Directory_Parent="winx86_Dir" DefaultDir="native"/>
+    <ROW Directory="native_Dir" Directory_Parent="winx64_Dir" DefaultDir="native"/>
+    <ROW Directory="runtimes_Dir" Directory_Parent="SomeApplication_Dir" DefaultDir="runtimes"/>
+    <ROW Directory="winx64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x64"/>
+    <ROW Directory="winx86_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x86"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{8730FE58-BBF6-4FDD-B0A8-22F24A7897B2}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="ProductInformation" ComponentId="{24441BA6-AA94-4BE1-92B0-B3D0BD673857}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{A7619D0C-1A17-4077-91AC-69E30B90B6CA}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="SomeApplication_ContentOutput" ComponentId="{892AA818-78EB-4C7E-B1B3-9B4C6A79B7BB}" Directory_="SomeApplication_Dir" Attributes="256" KeyPath="DPDFViewerNative_x86.dll"/>
+    <ROW Component="SomeApplication_ContentOutput_runtimes_winx64_native" ComponentId="{51762DFB-C520-41F0-9F8F-221E2924AEC9}" Directory_="native_Dir" Attributes="256" KeyPath="wkhtmltox.dll"/>
+    <ROW Component="SomeApplication_ContentOutput_runtimes_winx86_native" ComponentId="{376812E7-687F-44F7-9C99-92537FD632CA}" Directory_="native_1_Dir" Attributes="0" KeyPath="wkhtmltox.dll_1"/>
+    <ROW Component="SomeApplication_PrimaryOutput" ComponentId="{901F2F08-CEF6-4824-9F8C-E2E48096A05C}" Directory_="SomeApplication_Dir" Attributes="0" KeyPath="SomeApplication.exe"/>
+    <ROW Component="SomeApplication_References" ComponentId="{E175D017-CB33-4CFD-BA7F-6082354194B8}" Directory_="SomeApplication_Dir" Attributes="0" KeyPath="DynamicPDF.Viewer.dll"/>
+    <ROW Component="SomeApplication_SymbolsOutput" ComponentId="{74DF074E-968F-4A3C-A9C4-A13F03EA2649}" Directory_="SomeApplication_Dir" Attributes="0" KeyPath="SomeApplication.pdb"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="SomeApplication.exe" Component_="SomeApplication_PrimaryOutput" FileName="SOMEAP~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SomeApplication.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="SomeApplication.exe.config" Component_="SomeApplication_PrimaryOutput" FileName="SOMEAP~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SomeApplication.exe.config&gt;" SelfReg="false"/>
+    <ROW File="Aspose.PDF.dll" Component_="SomeApplication_References" FileName="ASPOSE~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Aspose.PDF.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Aspose.PDF.dll&gt;" SelfReg="false"/>
+    <ROW File="DynamicPDF.CoreSuite.dll" Component_="SomeApplication_References" FileName="DYNAMI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DynamicPDF.CoreSuite.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DynamicPDF.CoreSuite.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Reflection.TypeExtensions.dll" Component_="SomeApplication_References" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.TypeExtensions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Reflection.TypeExtensions.dll&gt;" SelfReg="false"/>
+    <ROW File="WkHtmlToPdfDotNet.dll" Component_="SomeApplication_References" FileName="WKHTML~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_WkHtmlToPdfDotNet.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WkHtmlToPdfDotNet.dll&gt;" SelfReg="false"/>
+    <ROW File="wkhtmltox.dll" Component_="SomeApplication_ContentOutput_runtimes_winx64_native" FileName="WKHTML~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_wkhtmltox.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_wkhtmltox.dll&gt;" SelfReg="false"/>
+    <ROW File="wkhtmltox.dll_1" Component_="SomeApplication_ContentOutput_runtimes_winx86_native" FileName="WKHTML~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_wkhtmltox.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_wkhtmltox.dll_1&gt;" SelfReg="false"/>
+    <ROW File="SomeApplication.pdb" Component_="SomeApplication_SymbolsOutput" FileName="SOMEAP~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SomeApplication.pdb&gt;" SelfReg="false"/>
+    <ROW File="DynamicPDF.Viewer.dll" Component_="SomeApplication_References" FileName="DYNAMI~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DynamicPDF.Viewer.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DynamicPDF.Viewer.dll&gt;" SelfReg="false"/>
+    <ROW File="DPDFViewerNative_x64.dll" Component_="SomeApplication_ContentOutput" FileName="DPDFVI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DPDFViewerNative_x64.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DPDFViewerNative_x64.dll&gt;" SelfReg="false"/>
+    <ROW File="DPDFViewerNative_x86.dll" Component_="SomeApplication_ContentOutput" FileName="DPDFVI~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DPDFViewerNative_x86.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DPDFViewerNative_x86.dll&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Aspose.PDF.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Aspose.PDF.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Aspose.PDF.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DPDFViewerNative_x64.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DPDFViewerNative_x64.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DPDFViewerNative_x64.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DPDFViewerNative_x86.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DPDFViewerNative_x86.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DPDFViewerNative_x86.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DynamicPDF.CoreSuite.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DynamicPDF.CoreSuite.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DynamicPDF.CoreSuite.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DynamicPDF.Viewer.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DynamicPDF.Viewer.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DynamicPDF.Viewer.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SomeApplication.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_SomeApplication.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SomeApplication.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_SomeApplication.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SomeApplication.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_SomeApplication.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Reflection.TypeExtensions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Reflection.TypeExtensions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.TypeExtensions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WkHtmlToPdfDotNet.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_WkHtmlToPdfDotNet.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_WkHtmlToPdfDotNet.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_wkhtmltox.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_wkhtmltox.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_wkhtmltox.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_wkhtmltox.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_wkhtmltox.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_wkhtmltox.dll_1]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="SomeApplication_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+    <ROW Feature_="MainFeature" Component_="SomeApplication_References"/>
+    <ROW Feature_="MainFeature" Component_="SomeApplication_ContentOutput_runtimes_winx64_native"/>
+    <ROW Feature_="MainFeature" Component_="SomeApplication_ContentOutput_runtimes_winx86_native"/>
+    <ROW Feature_="MainFeature" Component_="SomeApplication_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="SomeApplication_ContentOutput"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="AI_PROPPATH_FILENAME_PERBUILD_SomeA" Directory_="DesktopFolder" Name="SOMEAP~1.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_SomeApplication.exe]" Component_="SomeApplication_PrimaryOutput" Target="[#SomeApplication.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="SomeApplication_Dir"/>
+    <ROW Shortcut="SomeApplication" Directory_="SHORTCUTDIR" Name="SOMEAP~1|Some Application" Component_="SomeApplication_PrimaryOutput" Target="[#SomeApplication.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="PrimaryOutput" OutputFile="SomeApplication.exe" OutputFileShortcut="SomeApplication"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="PrimaryOutput" OutputFile="SomeApplication.exe.config"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="References" OutputFile="Aspose.PDF.dll"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="References" OutputFile="DynamicPDF.CoreSuite.dll"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="References" OutputFile="System.Reflection.TypeExtensions.dll"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="References" OutputFile="WkHtmlToPdfDotNet.dll"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="ContentOutput" OutputFile="wkhtmltox.dll"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="ContentOutput" OutputFile="wkhtmltox.dll_1"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="SymbolsOutput" OutputFile="SomeApplication.pdb"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="References" OutputFile="DynamicPDF.Viewer.dll"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="ContentOutput" OutputFile="DPDFViewerNative_x64.dll"/>
+    <ROW ProjectId="{edd37fcf-54e1-4fae-a393-20a91aa778a7}" ProjectName="Some Application" OutputGroup="ContentOutput" OutputFile="DPDFViewerNative_x86.dll"/>
+  </COMPONENT>
+</DOCUMENT>
